@@ -1,0 +1,39 @@
+@import "/imports/ui/components/media/styles";
+
+.connecting {
+  @extend .connectingSpinner;
+  background-color: transparent;
+  color: var(--color-white);
+  font-size: 2.5rem * 3;
+}
+
+.threeDscreenContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+
+#player{
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  height: 100%;
+}
+#streamingVideo{
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  height: 100%;
+}
+#videoPlayOverlay{
+  position: absolute;
+  top: 0;
+  left: 5px;
+  font-size: 24px;
+  max-width: 100%;
+}

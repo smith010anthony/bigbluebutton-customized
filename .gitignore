@@ -1,0 +1,9 @@
+.dbshell
+npm-debug.log
+node_modules/
+.meteor/dev_bundle
+tests/webdriverio/.testing-env
+public/locales/de_DE.json
+public/locales/ja_JP.json
+
+
